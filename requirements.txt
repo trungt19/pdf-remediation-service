@@ -1,0 +1,9 @@
+# PDF Remediation Microservice Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pikepdf==8.11.1
+httpx==0.26.0
+
+# Optional: for OCR support (also needs system package)
+# ocrmypdf==16.0.0
